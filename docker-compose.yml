@@ -1,0 +1,10 @@
+version: '2'
+services:
+    mysqlhost:
+        image: megsa/mysql-server
+    web:
+        image: megsa/myphpapp
+        ports:
+            - "8090:80"
+        
+ 
